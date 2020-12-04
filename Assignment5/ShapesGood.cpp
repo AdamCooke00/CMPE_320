@@ -47,9 +47,6 @@ void FilledSquare::draw()
 }
 
 FilledTextSquare::FilledTextSquare(int len, int wid, string col, string fillCol, string textCol) : Square(len, wid, col), Filled(fillCol), Labeled(textCol) {}
-void FilledTextSquare::drawText(string text)
-{
-}
 void FilledTextSquare::draw()
 {
     cout << "\nDrawing a " + getColor() + " square.";

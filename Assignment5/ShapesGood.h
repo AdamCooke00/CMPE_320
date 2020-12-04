@@ -60,7 +60,6 @@ class FilledTextSquare : public Square, public Filled, public Labeled
 {
 public:
     FilledTextSquare(int, int, string, string, string);
-    void drawText(string);
     virtual void draw();
 };
 
